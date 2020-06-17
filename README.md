@@ -1,6 +1,6 @@
-# ssr-lianxi
+# vue-ssr-practice
 
-> A Vue.js project
+> A Vue.js project,由vue-cli 2.x构建，经过手动SSR改造的项目。
 
 ## Build Setup
 
@@ -13,7 +13,8 @@ npm run dev
 
 # build for production with minification
 npm run build
-
+# 进入文件夹 server
+node server.js
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
